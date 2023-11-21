@@ -119,7 +119,7 @@ if(!cityData){
 let condition = cityData[0].weather && cityData[1].weather && cityData[2].weather && cityData[3].weather&&cityData[4].weather &&cityData[5].weather;
   return (
     <div className='home'>
-           <h1> <img src={logo} alt=''/> World Wide Weather  </h1>
+           <h1> World Wide Weather  </h1>
            <div className='search-container'>
                <input placeholder='Search for a city' value={selectedCity} onChange={(e)=>setSelectedCity(e.currentTarget.value)} />
                <button className='search-btn' onClick={handleSearch}>Search</button>
