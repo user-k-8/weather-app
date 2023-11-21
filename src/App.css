@@ -37,20 +37,19 @@ padding-top: 2rem;
   width: 100%;
   display: flex;
   align-items: center;
-  gap: 1vw;
+  gap: 1rem;
   justify-content: center;
-  margin-top: 2vw;
+  margin-top: 2rem;
 
 }
 
 .search-btn, .view-btn{
     font-size: 1.3rem;
     border-radius: 45px;
-    padding: 10px 1.5rem;
-    height: fit-content;
+    padding: 8px 1.3rem;
     border: none;
     background:   linear-gradient(270deg, #070714 0%, #222b44 100%);
-    color: white;
+    color: rgb(158, 158, 158);
     cursor: pointer;
 }
 
@@ -58,11 +57,10 @@ padding-top: 2rem;
   font-size: 1.3rem;
   border-radius: 10px;
   padding: 10px 1.5rem;
-  height: fit-content;
   width: fit-content;
   border: none;
   background:   linear-gradient(270deg, #070714 0%, #222b44 100%);
-  color: white;
+  color: rgb(158, 158, 158);
   cursor: pointer;
   
 }
@@ -94,7 +92,7 @@ input:focus{
 }
 
 .home-card{
-  background-color: rgba(0,0, 0, 0.7);
+  background-color: rgba(0,0, 0, 0.8);
   min-width: 370px;
   width: 24vw;
   border-radius: 15px;
@@ -102,8 +100,8 @@ input:focus{
   padding-top: 1vw;
   padding-bottom: 2vw;
   text-align: left;
-  color: rgb(158, 158, 158)
-  
+  color: rgb(158, 158, 158);
+  margin-bottom: 1rem;
 }
 .home-card>h1{
   font-size: 1.5rem !important;
@@ -675,7 +673,7 @@ width: 92%;
   }
   .search-container{
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem !important;
   }
   .home-card{
     width: 250px;
@@ -693,5 +691,10 @@ width: 92%;
   .home-card-summary>img{
     width: 150px !important;
   }
+
+  .search-container>input{
+    width: 80%;
+  }
+
 }
 
