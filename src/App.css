@@ -5,7 +5,7 @@ body{
   width: 100%;
 }
 .icon{
-  width: 40px;
+  width: 37px;
 }
 
 .error-card{
@@ -49,8 +49,10 @@ padding-top: 2rem;
     padding: 8px 1.3rem;
     border: none;
     background:   linear-gradient(270deg, #070714 0%, #222b44 100%);
-    color: rgb(158, 158, 158);
+    color: rgb(218, 217, 217);
     cursor: pointer;
+    margin-bottom: 1rem;
+    margin-top:  1rem;
 }
 
 .home-btn{
@@ -60,13 +62,11 @@ padding-top: 2rem;
   width: fit-content;
   border: none;
   background:   linear-gradient(270deg, #070714 0%, #222b44 100%);
-  color: rgb(158, 158, 158);
+  color: rgb(218, 217, 217);
   cursor: pointer;
   
 }
-.view-btn{
-margin-top: 1rem;
-}
+
 .search-container>input{
 
   border-radius: 35px;
@@ -86,21 +86,18 @@ input:focus{
  display: flex;
  justify-content: center;
  margin-top: 3vw;
- gap: 3vw;
+ gap: 2rem;
  flex-wrap: wrap;
 
 }
 
 .home-card{
   background-color: rgba(0,0, 0, 0.8);
-  min-width: 370px;
-  width: 24vw;
+  width: 370px;
   border-radius: 15px;
-  padding: 0vw 2vw;
-  padding-top: 1vw;
-  padding-bottom: 2vw;
+  padding: 1rem 2rem;
   text-align: left;
-  color: rgb(158, 158, 158);
+  color: rgb(218, 217, 217);
   margin-bottom: 1rem;
 }
 .home-card>h1{
@@ -129,7 +126,7 @@ input:focus{
   display: flex;
   flex-direction: column;
   padding: 2vw;
-  width: 25vw;
+  width: 27vw;
 }
 .weather-summary-card>h2{
  font-weight: 400;
@@ -173,13 +170,14 @@ input:focus{
 
   background-color: rgba(0,0, 0, 0.7);
 border-radius: 10px;
-padding: 0vw 1vw;
-margin-top: 1vw;
-padding-bottom: 1vw;
+padding: 10px 10px;
+margin-top: 1rem;
+padding-bottom: 1rem;
 min-height: 15vw;
 display: flex;
 flex-direction: column;
 justify-content: center;
+width: fit-content;
 }
 .temperature-card>h2{
   font-weight: 500;
@@ -200,7 +198,7 @@ justify-content: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1vw;
+  gap: 10px;
   text-align: center;
 }
 
@@ -222,7 +220,7 @@ justify-content: center;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 3vw;
+  gap: 3%;
 }
 .map-card>p{
   font-size: 1.5vw;
@@ -253,7 +251,7 @@ justify-content: center;
 
 .day-cards-container{
   display: flex;
-  gap: 1.5vw;
+  gap: 3%;
 }
 .day-card{
   background-color: rgba(0,0, 0, 0.7);
@@ -280,13 +278,13 @@ justify-content: center;
 .overview-row-1{
   display: flex;
   width: 100%;
-  gap:1.5vw
+  gap:1.5%
 }
 
 .overview-row-2{
   display: flex;
   width: 100%;
-  gap:1.5vw;
+  gap:1.5%;
   margin-top: 1vw;
 }
 
@@ -298,7 +296,7 @@ justify-content: center;
   padding: 0px 15px;
   padding-top: 2rem;
   margin-top: 1vw;
-  width: 22vw;
+  width: 33%;
   
   }
 
@@ -341,7 +339,7 @@ justify-content: center;
 }
 .sun-rise-set-stats{
   display: flex;
-  gap: 1vw;
+  gap: 7%;
   align-items: center;
   padding: 1.8vw 0vw;
  
@@ -349,7 +347,7 @@ justify-content: center;
 
 .overview-row-2-text{
   display: flex;
-  gap: 1vw;
+  gap: 7%;
   align-items: center;
   padding: 1.8vw 0vw;
   justify-content: space-between;
@@ -366,7 +364,7 @@ justify-content: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1vw;
+  gap: 5%;
 }
 .overview-row-2-text>div>span{
   font-size: 1.5vw;
@@ -389,7 +387,7 @@ justify-content: center;
   }
   .weather-summary-card{
     padding-top: 1vw;
-    width: 30%;
+    width: 35%;
   }
   .weather-summary-card>h1{
     font-size: 2.9vw;
@@ -398,7 +396,7 @@ justify-content: center;
     font-size: 2.5vw;
   }
   .temperature-card{
-    width: 54%;
+    width: 60%;
     padding-left: 1rem;
     padding-top: 0px;
   }
@@ -417,7 +415,7 @@ justify-content: center;
   width: 30px;
 }
 .day-cards-container{
-  gap: 3vw;
+  gap: 3%;
 }
 .day-card{
   border-radius: 10px;
@@ -431,7 +429,7 @@ justify-content: center;
 }
 .hour-temp{
   width: 11vw;
-  gap: 2vw;
+  gap: 10px;
 }
 .hourly-container{
   gap: 10px;
@@ -487,6 +485,10 @@ justify-content: center;
   }
   .location-details-right{
     border: none;
+  }
+  .home-card{
+    width: 350px !important;
+   
   }
 }
 
@@ -544,9 +546,10 @@ justify-content: center;
 }
 
 .temperature-card{
-  width: 98%;
+  width: 100%;
   border-radius: 10px;
   padding-top: 10px;
+  margin-left: 25px;
 
 }
 .temperature-card>h2{
@@ -576,20 +579,21 @@ justify-content: center;
 }
 .day-cards-container{
 width: 98%;
-  gap: 1vw;
+  gap: 2%;
 
 }
 
 .day-card{
   padding: 10px 0px;
-  width: 16vw;
-  gap: 1.5vw;
+  width: 20%;
+  gap: 8px;
 }
 .day-card>span{
     font-size: 4vw;
 }
 .today-overview-container{
   margin-top: 1rem;
+ 
 }
 .today-overview-container>h1{
     font-size: 4vw;
@@ -603,6 +607,7 @@ width: 98%;
   justify-content: center;
   align-items: center;
   gap: 10px;
+  padding-left: 15px;
 }
 
 .overview-row-1-card{
@@ -622,7 +627,7 @@ width: 98%;
   }
 
   .sun-rise-set-stats{
-      gap: 5vw;
+      gap: 1rem;
       justify-content: center;
   }
   .sun-rise-set-stats>span{
@@ -673,11 +678,13 @@ width: 98%;
   }
   .search-container{
     flex-direction: column;
-    gap: 2rem !important;
+
   }
   .home-card{
-    width: 250px;
+    width: 290px !important;
+   padding-top: 10px;
     text-align: center;
+    margin-top: 1rem !important;
   }
 .home>h1{
   font-size: 3rem;
@@ -695,6 +702,10 @@ width: 98%;
   .search-container>input{
     width: 80%;
   }
+  .view-btn{
+    font-size: 1.1rem;
+   
+}
 
 }
 
