@@ -107,9 +107,6 @@ input:focus{
   font-size: 1.5rem !important;
 }
 
-.home-card>img{
-  width: 10px;
-}
 .home-card-summary>h2{
   font-size: 1.5rem !important;
 }
@@ -537,7 +534,7 @@ width: fit-content;
   text-align: center;
 }
 .weather-summary-card>img{
-  width: 14vw;
+  width: 100px;
 }
 
 .summary-info{
@@ -646,6 +643,8 @@ width: 98%;
   }
   .wind-card{
     padding-bottom: 1rem;
+    gap: 1rem !important;
+    
   }
 
   .wind-speed{
